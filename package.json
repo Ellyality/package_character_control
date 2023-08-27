@@ -1,0 +1,21 @@
+{
+	"name": "com.ellyality.character.control",
+	"displayName":"Ellyality Character",
+	"version": "1.0.0",
+    "author": "Elly",
+    "unity": "2019.2",
+    "keywords": ["volumetric", "sdf", "math", "ray", "ray marching"],
+    "category": "engineering",
+    "license": "LICENSE",
+	"description": "Provide basic sign distance shader functions",
+    "documentationUrl": "https://github.com/Ellyality/package_randomness/blob/main/README.md",
+    "samples":[
+        {
+            "displayName": "Demo Scene",
+            "description": "All the noise display scene",
+            "path": "Demo/Scenes"
+        }
+    ],
+    "dependencies": {
+    }
+}
