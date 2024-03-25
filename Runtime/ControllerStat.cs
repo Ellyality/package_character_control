@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Controller value pack

@@ -1,17 +1,17 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime.Demo
+namespace Ellyality.Runtime.Demo
 {
     [RequireComponent(typeof(Rigidbody))]
-    public class TransitionFPSCharacter : FPSCharacter
+    public class CustomFPSCharacter : FPSCharacter
     {
         [Header("Custom Setting")]
-        public CapsuleCollider PlayerCollider;
+        public CapsuleCollider PlayerCollider = null;
         public float JumpForce = 2f;
         public float RunningMultiply = 1.5f;
 
-        private Rigidbody rigi;
+        private Rigidbody rigi = null;
         private bool isSquat = false;
         private bool isRunning = false;
 
@@ -19,15 +19,6 @@ namespace Elly.Runtime.Demo
         {
             base.Awake();
             rigi = GetComponent<Rigidbody>();
-            if (!Share.Init)
-            {
-                Share.PlayerCollider = PlayerCollider;
-                Share.MoveSpeed = MoveSpeed;
-                Share.ViewSpeed = ViewSpeed;
-                Share.JumpForce = JumpForce;
-                Share.Running = RunningMultiply;
-                Share.Init = true;
-            }
         }
 
         public override void Start()
@@ -35,21 +26,12 @@ namespace Elly.Runtime.Demo
             base.Start();
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            MoveSpeed = Share.MoveSpeed;
-            ViewSpeed = Share.ViewSpeed;
-            JumpForce = Share.JumpForce;
-            RunningMultiply = Share.Running;
-            CamOffset = Vector3.zero;
         }
 
         public override void Update()
         {
             base.Update();
-            Share.PlayerCollider.height = isSquat ? 1f : 2.5f;
-
-            Ray? ray = CameraFrontRay;
-            if (ray.HasValue)
-                SpecialPole.Casting(ray.Value, transform, ref Share.hitPole, 3f);
+            PlayerCollider.height = isSquat ? 1f : 2.5f;
         }
 
         public override void FixedUpdate()
@@ -60,20 +42,6 @@ namespace Elly.Runtime.Demo
         public virtual void OnRunning(InputValue context)
         {
             isRunning = context.isPressed;
-        }
-
-        public override void SwitchAction(CharacterBase source)
-        {
-            base.SwitchAction(source);
-            Controller.CanMove = true;
-        }
-
-        public virtual void OnViewSwitch(InputValue context)
-        {
-            if (!SpecialPole.TopDownMode)
-            {
-                SwitchType<TransitionTPSCharacter>();
-            }
         }
 
         public override void OnSquat(InputValue context)

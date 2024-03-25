@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace Elly.Editor
+namespace Ellyality.Editor
 {
     public sealed class CustomCharacter : EditorWindow
     {

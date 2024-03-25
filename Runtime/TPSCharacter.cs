@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In third-Person character controller <br />
@@ -11,7 +11,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : TPSCharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/Third-Person Character")]
+    [AddComponentMenu("Ellyality/Camera/Third-Person Character")]
     [BuiltInScript]
     public class TPSCharacter : CharacterBase
     {

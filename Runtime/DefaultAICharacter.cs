@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In AI character controller <br />
@@ -10,7 +10,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : DefaultAICharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/Default AI Character")]
+    [AddComponentMenu("Ellyality/Camera/Default AI Character")]
     [BuiltInScript]
     public class DefaultAICharacter : NoneCameraCharacter
     {

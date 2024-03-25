@@ -1,8 +1,8 @@
-﻿using Elly.Runtime;
+﻿using Ellyality.Runtime;
 using UnityEditor;
 using UnityEngine;
 
-namespace Elly.Editor
+namespace Ellyality.Editor
 {
     [CustomEditor(typeof(TopdownCharacter), true)]
     [CanEditMultipleObjects]

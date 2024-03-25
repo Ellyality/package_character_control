@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Basic character component

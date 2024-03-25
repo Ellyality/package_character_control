@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In noclip character controller <br />
@@ -11,7 +11,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : GhostCharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/Ghost Character")]
+    [AddComponentMenu("Ellyality/Camera/Ghost Character")]
     [BuiltInScript]
     public class GhostCharacter : CharacterBase
     {

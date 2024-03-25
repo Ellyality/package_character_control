@@ -1,4 +1,4 @@
-using Elly.Runtime;
+using Ellyality.Runtime;
 using UnityEngine;
 using UnityEngine.InputSystem;
 

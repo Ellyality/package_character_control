@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Elly.Runtime.Demo
+namespace Ellyality.Runtime.Demo
 {
     public class TransitionTopdownCharacter : TopdownCharacter
     {

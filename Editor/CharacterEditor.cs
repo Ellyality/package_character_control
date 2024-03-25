@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEditor;
 using UnityEngine.Rendering.Universal;
-using Elly.Runtime;
+using Ellyality.Runtime;
 using System.Diagnostics;
 
-namespace Elly.Editor
+namespace Ellyality.Editor
 {
     /// <summary>
     /// Hierachy menu item for create character

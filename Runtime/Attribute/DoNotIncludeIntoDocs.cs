@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Elly
+namespace Ellyality
 {
     /// <summary>
     /// Mark it as built-in script

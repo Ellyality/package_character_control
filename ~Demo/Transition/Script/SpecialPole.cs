@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
-namespace Elly.Runtime.Demo
+namespace Ellyality.Runtime.Demo
 {
     public class SpecialPole : MonoBehaviour
     {

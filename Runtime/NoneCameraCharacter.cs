@@ -1,4 +1,4 @@
-﻿namespace Elly.Runtime
+﻿namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In none camera character controller <br />

@@ -1,19 +1,19 @@
 {
 	"name": "com.ellyality.character.control",
-	"displayName":"Ellyality Character",
+	"displayName":"Character Controller",
 	"version": "1.0.0",
-    "author": "Elly",
+    "author": "Elly Prototype",
     "unity": "2019.2",
-    "keywords": ["volumetric", "sdf", "math", "ray", "ray marching"],
+    "keywords": ["character", "control", "camera", "controller", "input"],
     "category": "engineering",
     "license": "LICENSE",
-	"description": "Provide basic sign distance shader functions",
-    "documentationUrl": "https://github.com/Ellyality/package_randomness/blob/main/README.md",
+	"description": "Provide basic character controller for prototyping",
+    "documentationUrl": "https://github.com/Ellyality/package_character/blob/main/README.md",
     "samples":[
         {
             "displayName": "Demo Scene",
-            "description": "All the noise display scene",
-            "path": "Demo/Scenes"
+            "description": "All the controller demo scenes",
+            "path": "~Demo"
         }
     ],
     "dependencies": {

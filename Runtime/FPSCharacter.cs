@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In first-Person character controller <br />
@@ -11,7 +11,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : FPSCharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/First-Person Character")]
+    [AddComponentMenu("Ellyality/Camera/First-Person Character")]
     [BuiltInScript]
     public class FPSCharacter : CharacterBase
     {

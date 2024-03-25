@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In top-down character controller <br />
@@ -11,7 +11,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : TopdownCharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/Top-Down Character")]
+    [AddComponentMenu("Ellyality/Camera/Top-Down Character")]
     [BuiltInScript]
     public class TopdownCharacter : CharacterBase
     {

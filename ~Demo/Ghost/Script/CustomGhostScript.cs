@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime.Demo
+namespace Ellyality.Runtime.Demo
 {
     public class CustomGhostScript : GhostCharacter
     {

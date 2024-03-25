@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// Build-In platform character controller <br />
@@ -11,7 +11,7 @@ namespace Elly.Runtime
     /// public class CustomCharacter : PlatformCharacter
     /// </code>
     /// </summary>
-    [AddComponentMenu("Elly/Camera/Platform Character")]
+    [AddComponentMenu("Ellyality/Camera/Platform Character")]
     [BuiltInScript]
     public class PlatformCharacter : CharacterBase
     {

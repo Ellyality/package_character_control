@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Elly.Runtime
+namespace Ellyality.Runtime
 {
     /// <summary>
     /// When class inherit <seealso cref="CharacterBase"/> and have this attribute <br />
