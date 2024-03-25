@@ -1,7 +1,7 @@
 {
 	"name": "com.ellyality.character.control",
 	"displayName":"Character Controller",
-	"version": "1.0.1",
+	"version": "1.0.2",
     "author": "Elly Prototype",
     "unity": "2019.2",
     "keywords": ["character", "control", "camera", "controller", "input"],
