@@ -13,13 +13,13 @@ namespace Ellyality.Editor
     {
         private const string docs = "https://elly2018.github.io/Elly.Character/";
 
-        [MenuItem("Elly/Docs/Character")]
+        [MenuItem("Character/Docs")]
         public static void Docs()
         {
             Process.Start(docs);
         }
 
-        [MenuItem("GameObject/Elly/Character/Default AI Character", false, 1)]
+        [MenuItem("GameObject/Character/Character/Default AI Character", false, 1)]
         public static void CreateNoneCameraCharacter()
         {
             Transform t = CreateRootObject("Default AI Character");
@@ -28,7 +28,7 @@ namespace Ellyality.Editor
             Undo.RegisterCreatedObjectUndo(t.gameObject, "Create " + t.name);
         }
 
-        [MenuItem("GameObject/Elly/Character/First-Person Character", false)]
+        [MenuItem("GameObject/Character/Character/First-Person Character", false)]
         public static void CreateFPSCharacterWithCamera()
         {
             Transform t = CreateRootObject("First-Person Character");
@@ -39,7 +39,7 @@ namespace Ellyality.Editor
             Undo.RegisterCreatedObjectUndo(t.gameObject, "Create " + t.name);
         }
 
-        [MenuItem("GameObject/Elly/Character/Third-Person Character", false)]
+        [MenuItem("GameObject/Character/Character/Third-Person Character", false)]
         public static void CreateThirdPersonCharacterWithCamera()
         {
             Transform t = CreateRootObject("Third-Person Character");
@@ -49,7 +49,7 @@ namespace Ellyality.Editor
             Undo.RegisterCreatedObjectUndo(t.gameObject, "Create " + t.name);
         }
 
-        [MenuItem("GameObject/Elly/Character/Top-Down Character", false)]
+        [MenuItem("GameObject/Character/Character/Top-Down Character", false)]
         public static void CreateTopDownCharacter()
         {
             Transform t = CreateRootObject("Top-Down Character");
@@ -58,7 +58,7 @@ namespace Ellyality.Editor
             Undo.RegisterCreatedObjectUndo(t.gameObject, "Create " + t.name);
         }
 
-        [MenuItem("GameObject/Elly/Character/Ghost Character", false)]
+        [MenuItem("GameObject/Character/Character/Ghost Character", false)]
         public static void CreateGhostCharacter()
         {
             Transform t = CreateRootObject("Ghost Character");
@@ -68,7 +68,7 @@ namespace Ellyality.Editor
             Undo.RegisterCreatedObjectUndo(t.gameObject, "Create " + t.name);
         }
 
-        [MenuItem("GameObject/Elly/Character/Platform Character", false)]
+        [MenuItem("GameObject/Character/Character/Platform Character", false)]
         public static void CreatePlatformCharacter()
         {
             Transform t = CreateRootObject("Platform Character Root");
